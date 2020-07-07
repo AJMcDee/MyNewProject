@@ -1,18 +1,49 @@
-  main {
-    margin: 30px;
-  }
-  
-  img {
-    height: 100px;
-  }
-  
-  /* Task 1 */
-  
-  /* Task 2 */
-  
-  /* Task 3 */
-  
-  /* Task 4 */
-  
-  /* Task 5 */
-  
+main {
+  margin: 30px;
+}
+
+img {
+  height: 100px;
+}
+
+/* Task 1 */
+h3 {
+  color: blue;
+}
+/* Task 2 */
+
+.red {
+  color: red;
+}
+
+/* Task 3 */
+img:first-of-type ~ img {
+  border: 3px solid red;
+}
+
+/* Task 4 */
+
+a[href*='.com'] {
+  background-color: yellow;
+}
+
+/* Task 5 */
+
+#task5 {
+  color: fuchsia;
+}
+
+
+
+
+p {
+  color: blue;
+}
+
+p #frog {
+  color: green;
+}
+
+.toad {
+  color: purple;
+}
